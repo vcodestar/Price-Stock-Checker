@@ -1,0 +1,31 @@
+{
+	"name": "boilerplate-project-stockchecker",
+	"version": "0.0.1",
+	"description": "InfoSec project for freeCodeCamp",
+	"scripts": {
+		"start": "node server.js",
+		"dev": "nodemon server.js"
+	},
+	"dependencies": {
+		"body-parser": "^1.15.2",
+		"chai": "^4.2.0",
+		"chai-http": "^4.3.0",
+		"cors": "^2.8.1",
+		"dotenv": "^8.6.0",
+		"express": "^4.14.0",
+		"helmet": "^3.1.0",
+		"mocha": "^3.2.0",
+		"mongoose": "^8.1.1",
+		"node-fetch": "^2.6.7",
+		"nodemon": "^3.0.3"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/freeCodeCamp/boilerplate-project-stockchecker"
+	},
+	"keywords": [
+		"node",
+		"express"
+	],
+	"license": "MIT"
+}
